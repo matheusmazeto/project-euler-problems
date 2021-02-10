@@ -15,8 +15,5 @@ function fib(n) {
   if (n <= 2)
     return 1;
   const result = fib(n - 1) + fib(n - 2);
-  console.log(result);
   return result;
 }
-
-fib(14);
